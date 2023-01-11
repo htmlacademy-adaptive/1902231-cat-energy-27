@@ -1,13 +1,66 @@
 .card {
-  padding-top: 20px;
-  padding-bottom: 25px;
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-template-areas:
+    "logo title"
+    "logo table"
+    "button button";
+}
+
+.card__logo {
+  display: block;
+  grid-area: logo;
+  text-align: center;
 }
 
 .card__title {
+  grid-area: title;
+  text-align: center;
+}
+
+.card__title-name {
   font-family: $font-title;
   color: $color-gray-800;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.card__description {
+  grid-area: table;
+}
+
+.card__button {
+  grid-area: button;
+}
+
+@media (min-width: $tablet-width) {
+  .card {
+    grid-template-columns: 248px;
+    grid-template-areas:
+      "logo"
+      "title"
+      "table"
+      "button";
+    background-color: $color-gray-50;
+    justify-content: center;
+    padding-bottom: 35px;
+  }
+
+  .card__title-name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .card {
+    grid-template-columns: 168px;
+    padding-bottom: 40px;
+  }
+
+  .card__title-name {
+    line-height: 21px;
+  }
 }

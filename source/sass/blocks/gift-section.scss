@@ -1,8 +1,36 @@
-.gift-section__text {
-  background-image: url("../img/catalog/gift-section.png");
+.gift-section {
+  width: 280px;
+  height: 289px;
+  background-image: linear-gradient($color-gradient, $color-gradient), url("../img/catalog/gift-section.png");
   background-color: $color-green;
+  background-repeat: no-repeat;
+}
+
+.gift-section__text {
   color: $color-white;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
+  width: 200px;
+  margin: 0;
+  padding-top: 184px;
+  padding-left: 41px;
+}
+
+@media (min-width: $tablet-width) {
+  .gift-section {
+    width: 707px;
+    height: 200px;
+  }
+
+  .gift-section__text {
+    padding-top: 71px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .gift-section {
+    width: 245px;
+    height: 289px;
+  }
 }

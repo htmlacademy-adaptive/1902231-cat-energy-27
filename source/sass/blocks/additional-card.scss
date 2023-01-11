@@ -1,3 +1,10 @@
+.additional-card {
+  display: grid;
+  row-gap: 14px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+}
+
 .additional-card__title {
   font-family: $font-title;
   color: $color-gray-800;
@@ -5,10 +12,54 @@
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
+  margin: 0;
+}
+
+.additional-card__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .additional-card__defenition {
   color: $color-gray-600;
   font-size: 14px;
   line-height: 14px;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .additional-card {
+    grid-template-columns: 412px 220px;
+    grid-template-areas:
+      "title table"
+      "button button";
+    row-gap: 25px;
+    column-gap: 0;
+    padding: 28px 39px;
+  }
+
+  .additional-card__title {
+    grid-area: title;
+  }
+
+  .additional-card__list {
+    grid-area: table;
+  }
+
+  .additional-card__button {
+    grid-area: button;
+    justify-content: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additional-card {
+    grid-template-columns: 170px 285px 245px;
+    padding: 25px 0;
+    row-gap: 0;
+    column-gap: 40px;
+    grid-template-areas: "title table button";
+  }
 }

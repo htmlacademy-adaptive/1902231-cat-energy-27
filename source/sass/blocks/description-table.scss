@@ -1,3 +1,8 @@
+.description-table {
+  display: grid;
+  grid-template-columns: 70px 70px;
+}
+
 .description-table__element {
   color: $color-gray-600;
   font-size: 12px;
@@ -8,4 +13,27 @@
   color: $color-gray-600;
   font-size: 12px;
   line-height: 16px;
+  margin: 0;
+  text-align: end;
+}
+
+@media (min-width: $tablet-width) {
+  .description-table {
+    grid-template-columns: 124px 124px;
+    justify-content: space-between;
+  }
+
+  .description-table__element {
+    font-size: 16px;
+  }
+
+  .description-table__value {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .description-table {
+    grid-template-columns: 84px 84px;
+  }
 }

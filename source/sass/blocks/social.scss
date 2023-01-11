@@ -1,0 +1,14 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.social__link {
+  width: 25px;
+  height: 25px;
+  display: block;
+}

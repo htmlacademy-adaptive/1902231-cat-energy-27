@@ -9,8 +9,13 @@ $color-gray-600: #444444;
 $color-gray-800: #222222;
 $color-gray-900: #111111;
 $color-green: #68b738;
+$color-gradient: rgba(105, 183, 56, 0.85);
 $color-error: #ff8282;
 $color-border: #e7e7e7;
 
 $font-title: "Oswald", "Arial", sans-serif;
 $font-text: "Loto", "Arial", sans-serif;
+
+$tablet-width: 768px;
+$desktop-width: 1220px;
+$breakpoint-large: 767px;

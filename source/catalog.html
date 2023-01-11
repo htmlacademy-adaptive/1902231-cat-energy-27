@@ -3,46 +3,49 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Каталог продукции магазина «Кэт Энерджи»</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo logo" href="./index.html">
-      <img class="logo__image" src="./img/logo-mobile.svg" width="33" height="37" alt="Магазин «Кэт Энерджи»">
-      <img class="logo__image" src="./img/footer-logo.svg" width="128" height="24" alt="" aria-hidden="true">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
+    <div class="main-header__wrapper">
+      <a class="main-header__logo logo" href="./index.html">
+        <img class="logo__image" src="./img/logo-mobile.svg" width="33" height="37" alt="Магазин «Кэт Энерджи»">
+        <img class="logo__image" src="./img/footer-logo.svg" width="128" height="24" alt="" aria-hidden="true">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
 
-      <ul class="main-nav__list site-list">
-        <li class="site-list__item">
-          <a class="site-list__link" href="./index.html">Главная</a>
-        </li>
-        <li class="site-list__item site-list__item--current">
-          <a class="site-list__link">Каталог продукции</a>
-        </li>
-        <li class="site-list__item">
-          <a class="site-list__link" href="./form.html">Подбор программы</a>
-        </li>
-      </ul>
-
-    </nav>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link" href="./index.html">Главная</a>
+          </li>
+          <li class="site-list__item site-list__item--current">
+            <a class="site-list__link">Каталог продукции</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="./form.html">Подбор программы</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main class="main-container">
     <section class="main-container__section products">
-      <h1 class="products__title">
-        Каталог продукции
-      </h1>
-      <div class="products__card">
+      <div class="products__wrapper">
+        <h1 class="products__title">
+          Каталог продукции
+        </h1>
         <h2 class="visually-hidden">Список товаров</h2>
         <div class="card">
           <a class="card__logo" href="#">
-            <img class="card__logo-image" width="68" height="86" src="./img/catalog/pro500-chicken.png" alt="Корм «Cat Energy PRO» со вкусом курицы в упаковке 500 грамм.">
+            <img class="card__logo-image" width="68" height="86" src="./img/catalog/pro500-chicken.png"
+              alt="Корм «Cat Energy PRO» со вкусом курицы в упаковке 500 грамм.">
           </a>
 
           <a class="card__title">
@@ -63,7 +66,8 @@
 
         <div class="card">
           <a class="card__logo" href="#">
-            <img class="card__logo-image" width="84" height="100" src="./img/catalog/pro1000-chicken.png" alt="Корм «Cat Energy PRO» со вкусом курицы в упаковке 1000 грамм.">
+            <img class="card__logo-image" width="84" height="100" src="./img/catalog/pro1000-chicken.png"
+              alt="Корм «Cat Energy PRO» со вкусом курицы в упаковке 1000 грамм.">
           </a>
           <a class="card__title">
             <h3 class="card__title-name">
@@ -83,7 +87,8 @@
 
         <div class="card">
           <a class="card__logo" href="#">
-            <img class="card__logo-image" width="68" height="78" src="./img/catalog/pro500-fish.png" alt="Корм «Cat Energy PRO» со вкусом рыбы в упаковке 500 грамм.">
+            <img class="card__logo-image" width="68" height="78" src="./img/catalog/pro500-fish.png"
+              alt="Корм «Cat Energy PRO» со вкусом рыбы в упаковке 500 грамм.">
           </a>
           <a class="card__title">
             <h3 class="card__title-name">
@@ -103,7 +108,8 @@
 
         <div class="card">
           <a class="card__logo" href="#">
-            <img class="card__logo-image" width="84" height="100" src="./img/catalog/pro1000-fish.png" alt="Корм «Cat Energy PRO» со вкусом рыбы в упаковке 1000 грамм.">
+            <img class="card__logo-image" width="84" height="100" src="./img/catalog/pro1000-fish.png"
+              alt="Корм «Cat Energy PRO» со вкусом рыбы в упаковке 1000 грамм.">
           </a>
           <a class="card__title">
             <h3 class="card__title-name">
@@ -123,7 +129,8 @@
 
         <div class="card">
           <a class="card__logo" href="#">
-            <img class="card__logo-image" width="68" height="78" src="./img/catalog/slim500-buckwheat.png" alt="Корм «Cat Energy SLIM» со вкусом гречки в упаковке 500 грамм.">
+            <img class="card__logo-image" width="68" height="78" src="./img/catalog/slim500-buckwheat.png"
+              alt="Корм «Cat Energy SLIM» со вкусом гречки в упаковке 500 грамм.">
           </a>
           <a class="card__title">
             <h3 class="card__title-name">
@@ -143,7 +150,8 @@
 
         <div class="card">
           <a class="card__logo" href="#">
-            <img class="card__logo-image" width="84" height="100" src="./img/catalog/slim1000-buckwheat.png" alt="Корм «Cat Energy SLIM» со вкусом гречки в упаковке 1000 грамм.">
+            <img class="card__logo-image" width="84" height="100" src="./img/catalog/slim1000-buckwheat.png"
+              alt="Корм «Cat Energy SLIM» со вкусом гречки в упаковке 1000 грамм.">
           </a>
           <a class="card__title">
             <h3 class="card__title-name">
@@ -163,7 +171,8 @@
 
         <div class="card">
           <a class="card__logo" href="#">
-            <img class="card__logo-image" width="72" height="84" src="./img/catalog/slim500-rice.png" alt="Корм «Cat Energy SLIM» со вкусом риса в упаковке 500 грамм.">
+            <img class="card__logo-image" width="72" height="84" src="./img/catalog/slim500-rice.png"
+              alt="Корм «Cat Energy SLIM» со вкусом риса в упаковке 500 грамм.">
           </a>
           <a class="card__title">
             <h3 class="card__title-name">
@@ -180,76 +189,88 @@
           </dl>
           <button class="card__button button" type="button">Заказать</button>
         </div>
+
+        <div class="show-more-card">
+          <h2 class="show-more-card__title">Показать ещё 100500 товаров</h2>
+          <p class="show-more-card__description">На самом деле вкусов гораздо больше!</p>
+          <button class="show-more-card__button button" type="button">Показать все</button>
+        </div>
       </div>
     </section>
 
-    <section class="main-container__section show-more-section">
-      <h2 class="show-more-section__title">Показать ещё 100500 товаров</h2>
-      <p class="show-more-section__description">На самом деле вкусов гораздо больше!</p>
-      <button class="show-more-section__button button" type="button">Показать все</button>
-    </section>
 
     <section class="main-container__section additional-products">
+      <div class="additional-products__wrapper">
       <h2 class="additional-products__title">Дополнительные товары</h2>
-      <div class="additional-products__card additional-card">
-        <h3 class="additional-card__title">Сахарозаменитель</h3>
-        <dl class="additional-card__list">
-          <dt class="visually-hidden">Объём</dt>
-          <dd class="additional-card__defenition">1 упаковка (100 г)</dd>
+        <div class="additional-products__cards">
+          <div class="additional-products__card additional-card">
+            <h3 class="additional-card__title">Сахарозаменитель</h3>
+            <dl class="additional-card__list">
+              <dt class="visually-hidden">Объём</dt>
+              <dd class="additional-card__defenition">1 упаковка (100 г)</dd>
 
-          <dt class="visually-hidden">Цена</dt>
-          <dd class="additional-card__defenition">200 ₽</dd>
-        </dl>
-        <button class="additional-card-button button">Заказать</button>
+              <dt class="visually-hidden">Цена</dt>
+              <dd class="additional-card__defenition">200 ₽</dd>
+            </dl>
+            <button class="additional-card__button button">Заказать</button>
+          </div>
+
+          <div class="additional-products__card additional-card">
+            <h3 class="additional-card__title">Питьевая вода</h3>
+            <dl class="additional-card__list">
+              <dt class="visually-hidden">Объём</dt>
+              <dd class="additional-card__defenition">5 литров</dd>
+
+              <dt class="visually-hidden">Цена</dt>
+              <dd class="additional-card__defenition">50 ₽</dd>
+            </dl>
+            <button class="additional-card__button button">Заказать</button>
+          </div>
+
+          <div class="additional-products__card additional-card">
+            <h3 class="additional-card__title">Молоко</h3>
+            <dl class="additional-card__list">
+              <dt class="visually-hidden">Объём</dt>
+              <dd class="additional-card__defenition">1 литр</dd>
+
+              <dt class="visually-hidden">Цена</dt>
+              <dd class="additional-card__defenition">100 ₽</dd>
+            </dl>
+            <button class="additional-card__button button">Заказать</button>
+          </div>
+
+          <div class="additional-products__card additional-card">
+            <h3 class="additional-card__title">Витамины</h3>
+            <dl class="additional-card__list">
+              <dt class="visually-hidden">Объём</dt>
+              <dd class="additional-card__defenition">1 упаковка (30 г)</dd>
+
+              <dt class="visually-hidden">Цена</dt>
+              <dd class="additional-card__defenition">300 ₽</dd>
+            </dl>
+            <button class="additional-card__button button">Заказать</button>
+          </div>
+        </div>
+
+        <div class="gift-section">
+          <h2 class="visually-hidden">Выгодное предложение</h2>
+          <p class="gift-section__text">Закажите всё и получите чехол для кота в подарок!</p>
+        </div>
       </div>
 
-      <div class="additional-products__card additional-card">
-        <h3 class="additional-card__title">Питьевая вода</h3>
-        <dl class="additional-card__list">
-          <dt class="visually-hidden">Объём</dt>
-          <dd class="additional-card__defenition">5 литров</dd>
-
-          <dt class="visually-hidden">Цена</dt>
-          <dd class="additional-card__defenition">50 ₽</dd>
-        </dl>
-        <button class="additional-card-button button">Заказать</button>
-      </div>
-
-      <div class="additional-products__card additional-card">
-        <h3 class="additional-card__title">Молоко</h3>
-        <dl class="additional-card__list">
-          <dt class="visually-hidden">Объём</dt>
-          <dd class="additional-card__defenition">1 литр</dd>
-
-          <dt class="visually-hidden">Цена</dt>
-          <dd class="additional-card__defenition">100 ₽</dd>
-        </dl>
-        <button class="additional-card-button button">Заказать</button>
-      </div>
-
-      <div class="additional-products__card additional-card">
-        <h3 class="additional-card__title">Витамины</h3>
-        <dl class="additional-card__list">
-          <dt class="visually-hidden">Объём</dt>
-          <dd class="additional-card__defenition">1 упаковка (30 г)</dd>
-
-          <dt class="visually-hidden">Цена</dt>
-          <dd class="additional-card__defenition">300 ₽</dd>
-        </dl>
-        <button class="additional-card-button button">Заказать</button>
-      </div>
     </section>
 
-    <section class="main-container__section gift-section">
-      <h2 class="visually-hidden">Выгодное предложение</h2>
-      <p class="gift-section__text">Закажите всё и получите чехол для кота в подарок!</p>
-    </section>
 
     <section class="main-container__section contacts">
       <h2 class="visually-hidden">Контакты</h2>
-      <p class="contacts__title">Приглашаем к сотрудничеству дилеров!</p>
-      <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-      <img class="contacts__map" width="320" height="362" src="./img/map.png" alt="От метро «Невский проспект» (выход на канал Грибоедова) прямо по Невскомув сторону Адмиралтейства, на втором перекрёстке направо. Угловой дом по левой стороне улицы на первом перекрётске, 5 этаж.">
+      <div class="contacts__wrapper">
+        <div class="contacts__address">
+          <p class="contacts__title">Приглашаем к сотрудничеству дилеров!</p>
+          <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
+        <img class="contacts__map" src="./img/desktop-map.png" width="320" height="362"
+          alt="От метро «Невский проспект» (выход на канал Грибоедова) прямо по Невскому в сторону Адмиралтейства, на втором перекрёстке направо. Угловой дом по левой стороне улицы на первом перекрётске, 5 этаж.">
+      </div>
     </section>
   </main>
 

@@ -1,0 +1,26 @@
+.main-footer {
+  padding-top: 40px;
+}
+
+.main-footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .main-footer__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 720px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-footer__wrapper {
+    width: 1220px;
+  }
+}
